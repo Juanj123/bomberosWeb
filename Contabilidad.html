@@ -1,30 +1,230 @@
-<!doctype html>
+<!DOCTYPE doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS and Foundation CSS-->
-    <link rel="stylesheet" href="css\plugins\bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="css\plugins\foundation/foundation.css">
-    <link rel="stylesheet" href="css\plugins\foundation/app.css">
-
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <div class="alert alert-primary" role="alert">
-  A simple primary alert—check it out!
-</div>
-<a href="#" class="success button">Success Btn</a><br/>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js\plugins\jquery/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js\plugins\Bootstrap/bootstrap.min.js"></script>
-    <script src="js\plugins\foundation/vendor/what-input.js"></script>
-    <script src="js\plugins\foundation/vendor/foundation.js"></script>
-    <script src="js\plugins\foundation/app.js"></script>
-  </body>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+            <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+                <!-- Bootstrap CSS and Foundation CSS-->
+                <link href="css\plugins\bootstrap/bootstrap.min.css" rel="stylesheet">
+                    <link href="css\plugins\foundation/foundation.css" rel="stylesheet">
+                        <link href="css\plugins\foundation/app.css" rel="stylesheet">
+                            <link href="css\plugins\bootstrap/bootstrap-datetimepicker.css" rel="stylesheet">
+                                <title>
+                                    Contabilidad
+                                </title>
+                            </link>
+                        </link>
+                    </link>
+                </link>
+            </meta>
+        </meta>
+    </head>
+    <body>
+        <div class="alert alert-primary" role="alert">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <label for="formGroupExampleInput">
+                            Cuenta
+                        </label>
+                        <input class="form-control" id="formGroupExampleInput" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <div class="col-sm">
+                        <label for="formGroupExampleInput">
+                            Concepto
+                        </label>
+                        <input class="form-control" id="formGroupExampleInput" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <div class="col-sm">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" id="checkIngreso" name="chBoxIngreso" type="radio" value="Ingreso">
+                                <label class="form-check-label" for="checkIngreso">
+                                    Ingreso
+                                </label>
+                                <input class="form-control" id="formGroupExampleInput" placeholder="" type="text">
+                                </input>
+                            </input>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" id="checkEgreso" name="chBoxEgreso" type="radio" value="Egreso">
+                                <label class="form-check-label" for="checkEgreso">
+                                    Egreso
+                                </label>
+                                <input class="form-control" id="formGroupExampleInput" placeholder="" type="text">
+                                </input>
+                            </input>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <button class="btn btn-primary" type="button">
+                            Agregar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">
+                            #
+                        </th>
+                        <th scope="col">
+                            First
+                        </th>
+                        <th scope="col">
+                            Last
+                        </th>
+                        <th scope="col">
+                            Handle
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                            1
+                        </th>
+                        <td>
+                            Mark
+                        </td>
+                        <td>
+                            Otto
+                        </td>
+                        <td>
+                            @mdo
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            2
+                        </th>
+                        <td>
+                            Jacob
+                        </td>
+                        <td>
+                            Thornton
+                        </td>
+                        <td>
+                            @fat
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            3
+                        </th>
+                        <td>
+                            Larry
+                        </td>
+                        <td>
+                            the Bird
+                        </td>
+                        <td>
+                            @twitter
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">
+                            #
+                        </th>
+                        <th scope="col">
+                            First
+                        </th>
+                        <th scope="col">
+                            Last
+                        </th>
+                        <th scope="col">
+                            Handle
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                            1
+                        </th>
+                        <td>
+                            Mark
+                        </td>
+                        <td>
+                            Otto
+                        </td>
+                        <td>
+                            @mdo
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            2
+                        </th>
+                        <td>
+                            Jacob
+                        </td>
+                        <td>
+                            Thornton
+                        </td>
+                        <td>
+                            @fat
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            3
+                        </th>
+                        <td>
+                            Larry
+                        </td>
+                        <td>
+                            the Bird
+                        </td>
+                        <td>
+                            @twitter
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <button class="btn btn-info" type="button">
+                        Corte
+                    </button>
+                </div>
+                <div class="col-6">
+                </div>
+                <div class="col">
+                    <div class="col">
+                        <input class="form-control" placeholder="Total" type="text">
+                        </input>
+                    </div>
+                </div>
+            </div>
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="js\plugins\jquery/jquery.min.js">
+            </script>
+            <script src="js/popper.min.js">
+            </script>
+            <script src="js/moment.min.js">
+            </script>
+            <script src="js\plugins\Bootstrap/bootstrap.min.js">
+            </script>
+            <script src="js\plugins\Bootstrap/bootstrap-datetimepicker.min.js">
+            </script>
+            <script src="js\plugins\foundation/vendor/what-input.js">
+            </script>
+            <script src="js\plugins\foundation/vendor/foundation.js">
+            </script>
+            <script src="js\plugins\foundation/app.js">
+            </script>
+        </div>
+    </body>
 </html>

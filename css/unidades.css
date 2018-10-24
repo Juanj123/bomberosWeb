@@ -1,0 +1,33 @@
+.callout{
+    background: darkgray;
+    color: white;
+    border: none;
+    padding: 20px;
+}
+
+#col1{
+    padding: 30px 50px 30px 50px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 3px solid lightblue;
+    background: lightblue;
+}
+
+.imagen, .row input{ 
+    background: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.imagen{
+    height: 200px;
+}
+
+.row .column button{
+	border-radius: 5px;
+	border:none;
+	background: #007bff;
+	color:white;
+    padding: 15px;
+    margin: 30px 30px 0 30px;
+}
